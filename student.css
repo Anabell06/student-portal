@@ -1,0 +1,46 @@
+body{
+    background-image: url("istockphoto-1757344400-612x612.jpg");
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 0px;
+    overflow:hidden;
+}
+.portal{
+    font-family: 'BaselNeue', sans-serif;
+  font-size: 70px;
+  text-align: center;
+}
+
+.email{
+    font-family: 'BaselNeue', sans-serif;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.email-portal{
+    width: 40%;
+    height: 40px;
+    border: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.email-portal2{
+    width: 40%;
+    height: 40px;
+    border: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-left: 118px;
+}
+.submit-button{
+  width:100px;
+  height:30px;
+  background-color:green;
+  border: 10px;
+  border-radius: 5px;
+  margin-left: 30px;
+}
