@@ -14,10 +14,13 @@
         <div>
             <form onsubmit="goToPage(); return false;">
                 <label class="email">Registration Number:</label>
-                <input class="email-portal"><br>
+                <input class="email-portal" id="regNum"><br>
+
                 <label class="email">Password:</label>
-                <input class="email-portal2"><br>
-                <button type="button" onclick="window.location.href = 'index.html'" class="submit-button">Submit</button>
+                <input class="email-portal2" id="password"><br>
+
+                <button type="submit"  class="submit-button">Submit</button>
+                <p id="message" style="color: red;"></p>
             </form>
  
         

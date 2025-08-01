@@ -118,6 +118,22 @@ function myFunction(){
   document.getElementsByClassName("email-portal").submit();
 }
 
-function goToPage() {
-    window.location.href = "index.html";
+// function goToPage() {
+//   console.log(1);
+//     window.location.href = "index.html";
+//   }
+
+  function goToPage() {
+    console.log(2);
+    const correctPassword = "yoyolam98";
+    const enteredPassword = document.getElementById("password").value;
+    console.log(enteredPassword);
+    console.log(correctPassword);
+    const message = document.getElementById("message");
+
+    if (enteredPassword === correctPassword) {
+      window.location.href = "index.html";
+    } else {
+      message.textContent = "Incorrect password";
+    }
   }
